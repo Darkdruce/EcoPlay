@@ -1,0 +1,21 @@
+# Rust
+backend/target/
+
+# Node
+node_modules/
+packages/*/node_modules/
+apps/*/node_modules/
+
+# Build output
+.next/
+dist/
+
+# Env files
+.env
+.env.local
+.env*.local
+
+# Misc
+*.log
+.turbo/
+coverage/
